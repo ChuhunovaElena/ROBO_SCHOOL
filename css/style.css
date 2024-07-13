@@ -24,14 +24,10 @@ body{
 }
 .body__block-1{
     background-color: #141024;
-   
     height: 1080px;
-    
-    position: fixed;
     top: 0;
     left: 0;
-    width: 100%;
-    
+    min-width: 100%;
 }
 
 .header{
@@ -129,4 +125,39 @@ body{
     position: absolute;
    margin-left: 133px;
    margin-top: -96px
+}
+
+.about{
+    margin-top: 120px;
+   
+}
+.about__inner{
+    margin-bottom: 120px;
+}
+.about__inner-text{
+    width:891px;
+    font-size: 30px;
+    font-style: normal;
+    line-height: 160%;
+    font-weight: 400;
+    margin-bottom: 60px;
+}
+.text_bold{
+    font-weight: 600;
+}
+.about__inner-block{
+    display: flex;
+    justify-content: space-between;
+}
+.about__inner-list h3{
+    color: #D52027;  
+    font-weight: 600;
+    font-size: 70px;
+    line-height: 160%;
+}
+.about__inner-list p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 160%;
+    width: 260px;
 }
