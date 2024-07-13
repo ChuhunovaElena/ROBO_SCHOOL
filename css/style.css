@@ -222,3 +222,41 @@ body{
 .tooltip:focus + .tooltip-text {
   display: block;
 }
+.slider{
+    margin: 120px 0;
+}
+.slider-top{
+    width: 1560px;
+    margin-right: 0;
+}
+.slider__title{
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 160%;
+    margin-bottom: 60px;
+}
+.swiper-slide{
+    margin-bottom: 77px;
+}
+.slider__name{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 160%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.description{
+    margin-bottom: 20px;
+}
+.swiper-slide a{
+    color: #D52027;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 160%;
+}
+.swiper-scrollbar{
+    width: 360px;
+}
+swiper-horizontal>.swiper-scrollbar, .swiper-scrollbar.swiper-scrollbar-horizontal {
+    width: 360px;
+}
