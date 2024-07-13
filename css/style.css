@@ -31,6 +31,11 @@ body{
     padding: 0 10px;
     margin: 0 auto;
     color: #FFFFFF;
+    height: 1080px;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+   
 }
 .navigation{
     padding: 30px 100px 0;
@@ -54,18 +59,22 @@ body{
     line-height: 160%;
     padding: 0;
 }
-
+.header__inner{
+    align-items: flex-end;
+}
 .container{
-    padding-left:380px;
+    max-width: 1400px;
+    padding: 0 100px;
+    margin: 0 auto;
 }
 .header__link{
     display: flex;
+    align-items: flex-end;
 }
 .header__items{
   display: flex;
   flex-flow: column;
-  border:1px solid rgb(192, 152, 152);
-  padding-top: 266px;
+ margin-bottom: 411px;
 }
 .header__item-title{
     font-family: "Jost", sans-serif;
@@ -96,4 +105,19 @@ body{
     cursor: pointer;
     display: block;
     width: 260px;
+}
+
+.header__img{
+    background-image: url(../images/Ellipse\ 29.png);
+    background-repeat: no-repeat;
+    min-width: 788px;
+    margin-left: 28px;
+    min-height: 788px;
+    
+    
+}
+.header__img-girl{
+    position: absolute;
+   margin-left: 133px;
+   margin-top: -130px
 }
