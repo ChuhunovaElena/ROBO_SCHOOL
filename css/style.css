@@ -260,3 +260,13 @@ body{
 swiper-horizontal>.swiper-scrollbar, .swiper-scrollbar.swiper-scrollbar-horizontal {
     width: 360px;
 }
+.swiper-button-prev:after, .swiper-button-next:after {
+    content: none;
+} 
+.container__arrow{
+  position: relative;
+  margin-left:1000px;
+    max-width: 100px;
+    z-index: 10;
+    padding: 20px;
+}
